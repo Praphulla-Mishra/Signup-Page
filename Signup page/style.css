@@ -1,0 +1,94 @@
+
+*{
+ margin: 0;
+ padding: 0%;
+}
+
+body{
+    background-color: #eff3f9;
+}
+
+
+
+header{
+    height: 70px;
+    width: auto;
+    background-color:#0e385e ;
+    border-bottom: 4px solid yellow;
+    position: sticky;
+    top: 0;
+}
+
+#head-text{
+    position: absolute;
+    margin-left: 0.5rem;
+    display: inline;
+    margin-top: 1.3rem;
+    color: #eff3f9;
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+    /*position: absolute;
+    margin-left: 6rem;
+    margin-top: 1.3rem;
+    color: #eff3f9;
+    font-size: 1.5rem;*/
+    
+}
+
+
+#center{
+    
+    /*position: relative;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 90vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#instruction{
+
+    height: 70px;
+    width: auto;
+    background-color: #f2f2f4;
+    border-bottom: 2px solid #eff0f4;
+    
+
+}
+
+.main-container{
+    margin: 20px;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+input{
+    margin-bottom: 20px;
+}
+
+#signupform{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#button{
+    padding: 6px 8px;
+   
+}
+
+@media screen and (max-width: 1200px)
+ {
+  #center{
+      width: 90%;
+  }   
+ }
+ @media screen and (max-width: 750px)
+ {
+  #center{
+      width: 95%;
+  }   
+ }
